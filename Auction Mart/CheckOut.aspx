@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-        </div>
+            here you&#39;ll do the checkout</div>
     </form>
 </body>
 </html>

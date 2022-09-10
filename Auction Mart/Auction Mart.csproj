@@ -73,8 +73,10 @@
     <Content Include="homepage.aspx" />
     <Content Include="ju3D5q.jpg" />
     <Content Include="login.aspx" />
-    <Content Include="Products.aspx" />
+    <Content Include="HomeProducts.aspx" />
     <Content Include="Signup.aspx" />
+    <Content Include="Subscription.aspx" />
+    <Content Include="SubscriptionProductUpload.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -106,12 +108,12 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Products.aspx.cs">
-      <DependentUpon>Products.aspx</DependentUpon>
+    <Compile Include="HomeProducts.aspx.cs">
+      <DependentUpon>HomeProducts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Products.aspx.designer.cs">
-      <DependentUpon>Products.aspx</DependentUpon>
+    <Compile Include="HomeProducts.aspx.designer.cs">
+      <DependentUpon>HomeProducts.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Signup.aspx.cs">
@@ -120,6 +122,20 @@
     </Compile>
     <Compile Include="Signup.aspx.designer.cs">
       <DependentUpon>Signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Subscription.aspx.cs">
+      <DependentUpon>Subscription.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Subscription.aspx.designer.cs">
+      <DependentUpon>Subscription.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SubscriptionProductUpload.aspx.cs">
+      <DependentUpon>SubscriptionProductUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SubscriptionProductUpload.aspx.designer.cs">
+      <DependentUpon>SubscriptionProductUpload.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

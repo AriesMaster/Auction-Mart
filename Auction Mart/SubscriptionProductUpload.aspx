@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Products.aspx.cs" Inherits="Auction_Mart.Products" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SubscriptionProductUpload.aspx.cs" Inherits="Auction_Mart.SubscriptionProductUpload" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-        </div>
+            here you upload products</div>
     </form>
 </body>
 </html>

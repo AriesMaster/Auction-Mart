@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="Auction_Mart.contact" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomeProducts.aspx.cs" Inherits="Auction_Mart.Products" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            contacts</div>
+            home page to buy products</div>
     </form>
 </body>
 </html>

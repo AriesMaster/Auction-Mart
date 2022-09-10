@@ -124,7 +124,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="auto-style3" colspan="2">
-                                                        <asp:Button ID="LoginButton" runat="server" BackColor="#FF0066" BorderStyle="Ridge" CommandName="Login" Font-Bold="True" ForeColor="White" Text="SIGNUP" ValidationGroup="Login1" Width="216px" />
+                                                        <asp:Button ID="LoginButton" runat="server" BackColor="#FF0066" BorderStyle="Ridge" CommandName="Login" Font-Bold="True" ForeColor="White" Text="SIGNUP" ValidationGroup="Login1" Width="216px" PostBackUrl="~/Subscription.aspx" />
                                                     </td>
                                                 </tr>
                                                 <tr>
