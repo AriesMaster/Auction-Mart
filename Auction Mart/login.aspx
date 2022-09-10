@@ -17,7 +17,9 @@
         <div>
             &nbsp;<table style="width: 100%; height: 568px;">
                 <tr>
-                    <td class="auto-style1" colspan="3">&nbsp;</td>
+                    <td class="auto-style1" colspan="3">
+                        <asp:DynamicHyperLink ID="DynamicHyperLink2" runat="server" NavigateUrl="~/homepage.aspx">home</asp:DynamicHyperLink>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
