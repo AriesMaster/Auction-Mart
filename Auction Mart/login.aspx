@@ -78,7 +78,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="auto-style3" colspan="3">
-                                                        <asp:Button ID="LoginButton" runat="server" BackColor="#FF0066" BorderStyle="Ridge" CommandName="Login" Font-Bold="True" ForeColor="White" Text="LOGIN" ValidationGroup="Login1" Width="216px" PostBackUrl="~/homepage.aspx" />
+                                                        <asp:Button ID="LoginButton" runat="server" BackColor="#FF0066" BorderStyle="Ridge" CommandName="Login" Font-Bold="True" ForeColor="White" Text="LOGIN" ValidationGroup="Login1" Width="216px" PostBackUrl="~/home.aspx" />
                                                     </td>
                                                 </tr>
                                                 <tr>

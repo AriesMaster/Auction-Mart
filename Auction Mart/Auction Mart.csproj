@@ -67,11 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AUCTION MART.png" />
     <Content Include="CheckOut.aspx" />
     <Content Include="contact.aspx" />
-    <Content Include="homepage.aspx" />
-    <Content Include="ju3D5q.jpg" />
+    <Content Include="home.aspx" />
+    <Content Include="images\5-Auction-Tips-for-Beginners2.jpg" />
+    <Content Include="images\AUCTION MART.png" />
+    <Content Include="images\ju3D5q.jpg" />
     <Content Include="login.aspx" />
     <Content Include="HomeProducts.aspx" />
     <Content Include="Signup.aspx" />
@@ -94,12 +95,12 @@
     <Compile Include="contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="homepage.aspx.cs">
-      <DependentUpon>homepage.aspx</DependentUpon>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="homepage.aspx.designer.cs">
-      <DependentUpon>homepage.aspx</DependentUpon>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>

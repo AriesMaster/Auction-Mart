@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background-position: center center; background-image: url('ju3D5q.jpg')">
 <head runat="server">
     <title></title>
 </head>
