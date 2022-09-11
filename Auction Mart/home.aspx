@@ -46,9 +46,9 @@
                 <Items>
                     <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/home.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="PRODUCTS" Value="PRODUCTS" NavigateUrl="~/HomeProducts.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="ABOUT US" Value="ABOUT US"></asp:MenuItem>
+                    <asp:MenuItem Text="ABOUT US" Value="ABOUT US" NavigateUrl="~/aboutUs.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="CONTACT US" Value="CONTACT US" NavigateUrl="~/contact.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="HELP" Value="HELP"></asp:MenuItem>
+                    <asp:MenuItem Text="HELP" Value="HELP" NavigateUrl="~/Help.aspx"></asp:MenuItem>
                 </Items>
                 <StaticHoverStyle BackColor="#666699" BorderStyle="Inset" />
                 <StaticMenuItemStyle BackColor="#0066CC" Font-Bold="True" ForeColor="White" HorizontalPadding="68px" VerticalPadding="22px" />

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomeProducts.aspx.cs" Inherits="Auction_Mart.Products" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Help.aspx.cs" Inherits="Auction_Mart.Help" %>
 
 <!DOCTYPE html>
 
@@ -31,7 +31,7 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form2" runat="server">
         <div>
             <table class="auto-style3">
                 <tr>
@@ -81,5 +81,6 @@
 
         </div>
     </form>
+    
 </body>
 </html>

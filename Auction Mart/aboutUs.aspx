@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomeProducts.aspx.cs" Inherits="Auction_Mart.Products" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="aboutUs.aspx.cs" Inherits="Auction_Mart.aboutUs" %>
 
 <!DOCTYPE html>
 
@@ -31,7 +31,7 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form2" runat="server">
         <div>
             <table class="auto-style3">
                 <tr>
@@ -44,7 +44,7 @@
                     <asp:MenuItem Text="PRODUCTS" Value="PRODUCTS" NavigateUrl="~/HomeProducts.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="ABOUT US" Value="ABOUT US" NavigateUrl="~/aboutUs.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="CONTACT US" Value="CONTACT US" NavigateUrl="~/contact.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="HELP" Value="HELP" NavigateUrl="~/Help.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="HELP" Value="HELP"></asp:MenuItem>
                 </Items>
                 <StaticHoverStyle BackColor="#666699" BorderStyle="Inset" />
                 <StaticMenuItemStyle BackColor="#0066CC" Font-Bold="True" ForeColor="White" HorizontalPadding="68px" VerticalPadding="22px" />
@@ -81,5 +81,6 @@
 
         </div>
     </form>
+    
 </body>
 </html>
