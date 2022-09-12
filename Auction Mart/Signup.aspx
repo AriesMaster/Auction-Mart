@@ -22,6 +22,14 @@
             width: 377px;
             text-align: center;
         }
+        .auto-style15 {
+            width: 377px;
+            height: 467px;
+        }
+        .auto-style16 {
+            width: 342px;
+            height: 467px;
+        }
         </style>
 </head>
 <body>
@@ -41,8 +49,8 @@
                     <td rowspan="3">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style1">&nbsp;</td>
-                    <td class="auto-style13">
+                    <td class="auto-style15"></td>
+                    <td class="auto-style16">
                         <asp:Login ID="Login1" runat="server" BackColor="#E3EAEB" BorderColor="#E6E2D8" BorderPadding="4" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" Height="229px" TextLayout="TextOnTop" Width="430px">
                             <InstructionTextStyle Font-Italic="True" ForeColor="Black" />
                             <LayoutTemplate>
@@ -124,7 +132,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td class="auto-style3" colspan="2">
-                                                        <asp:Button ID="LoginButton" runat="server" BackColor="#FF0066" BorderStyle="Ridge" CommandName="Login" Font-Bold="True" ForeColor="White" Text="SIGNUP" ValidationGroup="Login1" Width="216px" PostBackUrl="~/Subscription.aspx" />
+                                                        <asp:Button ID="LoginButton" runat="server" BackColor="#FF0066" BorderStyle="Ridge" CommandName="Login" Font-Bold="True" ForeColor="White" Text="SIGNUP" ValidationGroup="Login1" Width="216px" PostBackUrl="~/Subscription.aspx" OnClick="LoginButton_Click" />
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -156,7 +164,7 @@
                             <TitleTextStyle BackColor="#1C5E55" Font-Bold="True" Font-Size="0.9em" ForeColor="White" />
                         </asp:Login>
                     </td>
-                    <td class="auto-style1">&nbsp;</td>
+                    <td class="auto-style15"></td>
                 </tr>
                 <tr>
                     <td class="auto-style1">&nbsp;</td>

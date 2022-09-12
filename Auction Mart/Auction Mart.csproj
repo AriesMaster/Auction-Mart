@@ -68,8 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutUs.aspx" />
+    <Content Include="buyer-icon-vector-male-customer-person-profile-avatar-symbol-shopping-glyph-pictogram-illustration-150310883 %281%29.jpg" />
     <Content Include="CheckOut.aspx" />
     <Content Include="contact.aspx" />
+    <Content Include="download.png" />
     <Content Include="Help.aspx" />
     <Content Include="home.aspx" />
     <Content Include="images\5-Auction-Tips-for-Beginners2.jpg" />

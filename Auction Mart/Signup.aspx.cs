@@ -13,5 +13,10 @@ namespace Auction_Mart
         {
 
         }
+
+        protected void LoginButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
