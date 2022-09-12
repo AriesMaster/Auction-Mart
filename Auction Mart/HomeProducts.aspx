@@ -9,7 +9,7 @@
 
         .auto-style3 {
             width: 100%;
-            height: 62px;
+            height: 198px;
         }
         .auto-style1 {
             width: 161px;
@@ -36,9 +36,10 @@
             <table class="auto-style3">
                 <tr>
                     <td class="auto-style1">
+                        <asp:Label ID="lblFree" runat="server" Text="Label"></asp:Label>
                         <img alt="" class="auto-style2" src="images/AUCTION%20MART.png" /></td>
                     <td>
-            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" OnMenuItemClick="Menu1_MenuItemClick">
                 <Items>
                     <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/home.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="PRODUCTS" Value="PRODUCTS" NavigateUrl="~/HomeProducts.aspx"></asp:MenuItem>

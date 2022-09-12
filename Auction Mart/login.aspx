@@ -10,6 +10,9 @@
         .auto-style1 {
             width: 377px;
         }
+        .auto-style2 {
+            height: 16px;
+        }
         </style>
 </head>
 <body>
@@ -82,8 +85,8 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="auto-style4" colspan="3">&nbsp;<asp:Label ID="UserNameLabel0" runat="server" AssociatedControlID="UserName"> Forgot Password?</asp:Label>
-                                                    </td>
+                                                    <td class="auto-style2" colspan="3">
+                                                        Forgot Password?</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="auto-style3" colspan="3">

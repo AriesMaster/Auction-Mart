@@ -49,24 +49,35 @@
             font-weight: bold;
             background-color: #CCCCCC;
         }
-        .auto-style17 {
-            font-weight: bold;
-            background-color: #999999;
-        }
-        .auto-style18 {
-            font-weight: bold;
-            background-color: #808080;
-        }
-        .auto-style19 {
-            font-weight: bold;
-            margin-left: 3px;
-            background-color: #666666;
-        }
         .auto-style23 {
             background-color: #FFFFFF;
         }
         .auto-style24 {
             height: 218px;
+        }
+        .auto-style25 {
+            font-size: x-large;
+        }
+        .auto-style26 {
+            font-size: x-large;
+            font-weight: bold;
+        }
+        .auto-style27 {
+            font-size: x-large;
+            font-weight: bold;
+            background-color: #000000;
+        }
+        .auto-style28 {
+            font-size: x-large;
+            font-weight: bold;
+            color: #FFFFFF;
+            background-color: #000000;
+        }
+        .auto-style29 {
+            font-size: x-large;
+            font-weight: bold;
+            color: #000000;
+            background-color: #000000;
         }
     </style>
 </head>
@@ -125,14 +136,16 @@
                     <br />
 &nbsp;&nbsp; <strong>
                     <asp:Label ID="lbclick" runat="server" CssClass="auto-style6" Text="CLICK YOUR PLAN:"></asp:Label>
-                    </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>
-                    <asp:Button ID="BTFREE" runat="server" CssClass="auto-style14" PostBackUrl="~/home.aspx" Text="FREE" Width="96px" />
-                    </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>
-                    <asp:Button ID="BTDAILY" runat="server" CssClass="auto-style17" Text="DAILY" Width="104px" />
-                    </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>
-                    <asp:Button ID="BTMONTHLY" runat="server" CssClass="auto-style18" Text="MONTHLY" Width="123px" />
-                    </strong>&nbsp;&nbsp;&nbsp; <strong>
-                    <asp:Button ID="BTANNUAL" runat="server" CssClass="auto-style19" Text="ANNUAL" Width="123px" />
+                    </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<strong><asp:RadioButton ID="rbFree" runat="server" CssClass="auto-style25" style="background-color: #CCCCCC" Text="Free" />
+                    </strong>&nbsp; <strong>
+                    <asp:RadioButton ID="rbDaily" runat="server" CssClass="auto-style26" style="background-color: #C0C0C0" Text="Daily" />
+                    </strong>&nbsp; <strong>
+                    <asp:RadioButton ID="rbMonthly" runat="server" CssClass="auto-style27" style="background-color: #999999" Text="Monthly" />
+                    </strong>&nbsp; <strong>
+                    <asp:RadioButton ID="rbAnnual" runat="server" CssClass="auto-style29" style="background-color: #808080" Text="Annual" />
+                    </strong>&nbsp;&nbsp;<br />
+                    <br />
+                    &nbsp;&nbsp;&nbsp;<strong><asp:Button ID="Button1" runat="server" CssClass="auto-style28" OnClick="Button1_Click" Text="Subcribe" Width="119px" />
                     <br />
                     <br />
                     <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/login.aspx">login</asp:HyperLink>

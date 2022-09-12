@@ -141,40 +141,49 @@ namespace Auction_Mart
         protected global::System.Web.UI.WebControls.Label lbclick;
 
         /// <summary>
-        /// BTFREE control.
+        /// rbFree control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BTFREE;
+        protected global::System.Web.UI.WebControls.RadioButton rbFree;
 
         /// <summary>
-        /// BTDAILY control.
+        /// rbDaily control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BTDAILY;
+        protected global::System.Web.UI.WebControls.RadioButton rbDaily;
 
         /// <summary>
-        /// BTMONTHLY control.
+        /// rbMonthly control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BTMONTHLY;
+        protected global::System.Web.UI.WebControls.RadioButton rbMonthly;
 
         /// <summary>
-        /// BTANNUAL control.
+        /// rbAnnual control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BTANNUAL;
+        protected global::System.Web.UI.WebControls.RadioButton rbAnnual;
+
+        /// <summary>
+        /// Button1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
         /// HyperLink1 control.

@@ -11,6 +11,16 @@ namespace Auction_Mart
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            HttpCookie info = Request.Cookies["Cookies"];
+
+            if(Session["plan"] != null)
+            {
+                lbstatement.Text = Convert.ToString(Session["plan"]);
+            }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
 
         }
     }
