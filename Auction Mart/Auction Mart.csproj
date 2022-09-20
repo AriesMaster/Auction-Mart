@@ -67,101 +67,93 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="aboutUs.aspx" />
-    <Content Include="buyer-icon-vector-male-customer-person-profile-avatar-symbol-shopping-glyph-pictogram-illustration-150310883 %281%29.jpg" />
-    <Content Include="CheckOut.aspx" />
-    <Content Include="contact.aspx" />
-    <Content Include="download.png" />
-    <Content Include="Forget.aspx" />
-    <Content Include="Help.aspx" />
-    <Content Include="home.aspx" />
+    <Content Include="forms\aboutUs.aspx" />
+    <Content Include="images\buyer-icon-vector-male-customer-person-profile-avatar-symbol-shopping-glyph-pictogram-illustration-150310883 %281%29.jpg" />
+    <Content Include="forms\CheckOut.aspx" />
+    <Content Include="forms\contact.aspx" />
+    <Content Include="images\download.png" />
+    <Content Include="forms\Help.aspx" />
+    <Content Include="forms\home.aspx" />
     <Content Include="images\5-Auction-Tips-for-Beginners2.jpg" />
     <Content Include="images\AUCTION MART.png" />
     <Content Include="images\ju3D5q.jpg" />
-    <Content Include="login.aspx" />
-    <Content Include="HomeProducts.aspx" />
-    <Content Include="Signup.aspx" />
-    <Content Include="Subscription.aspx" />
-    <Content Include="SubscriptionProductUpload.aspx" />
+    <Content Include="forms\login.aspx" />
+    <Content Include="forms\HomeProducts.aspx" />
+    <Content Include="forms\Signup.aspx" />
+    <Content Include="forms\Subscription.aspx" />
+    <Content Include="forms\SubscriptionProductUpload.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="aboutUs.aspx.cs">
+    <Compile Include="forms\aboutUs.aspx.cs">
       <DependentUpon>aboutUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="aboutUs.aspx.designer.cs">
+    <Compile Include="forms\aboutUs.aspx.designer.cs">
       <DependentUpon>aboutUs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CheckOut.aspx.cs">
+    <Compile Include="forms\CheckOut.aspx.cs">
       <DependentUpon>CheckOut.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CheckOut.aspx.designer.cs">
+    <Compile Include="forms\CheckOut.aspx.designer.cs">
       <DependentUpon>CheckOut.aspx</DependentUpon>
     </Compile>
-    <Compile Include="contact.aspx.cs">
+    <Compile Include="forms\contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="contact.aspx.designer.cs">
+    <Compile Include="forms\contact.aspx.designer.cs">
       <DependentUpon>contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Forget.aspx.cs">
-      <DependentUpon>Forget.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Forget.aspx.designer.cs">
-      <DependentUpon>Forget.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Help.aspx.cs">
+    <Compile Include="forms\Help.aspx.cs">
       <DependentUpon>Help.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Help.aspx.designer.cs">
+    <Compile Include="forms\Help.aspx.designer.cs">
       <DependentUpon>Help.aspx</DependentUpon>
     </Compile>
-    <Compile Include="home.aspx.cs">
+    <Compile Include="forms\home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="home.aspx.designer.cs">
+    <Compile Include="forms\home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="login.aspx.cs">
+    <Compile Include="forms\login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="login.aspx.designer.cs">
+    <Compile Include="forms\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="HomeProducts.aspx.cs">
+    <Compile Include="forms\HomeProducts.aspx.cs">
       <DependentUpon>HomeProducts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="HomeProducts.aspx.designer.cs">
+    <Compile Include="forms\HomeProducts.aspx.designer.cs">
       <DependentUpon>HomeProducts.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Signup.aspx.cs">
+    <Compile Include="forms\Signup.aspx.cs">
       <DependentUpon>Signup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Signup.aspx.designer.cs">
+    <Compile Include="forms\Signup.aspx.designer.cs">
       <DependentUpon>Signup.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Subscription.aspx.cs">
+    <Compile Include="forms\Subscription.aspx.cs">
       <DependentUpon>Subscription.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Subscription.aspx.designer.cs">
+    <Compile Include="forms\Subscription.aspx.designer.cs">
       <DependentUpon>Subscription.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SubscriptionProductUpload.aspx.cs">
+    <Compile Include="forms\SubscriptionProductUpload.aspx.cs">
       <DependentUpon>SubscriptionProductUpload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SubscriptionProductUpload.aspx.designer.cs">
+    <Compile Include="forms\SubscriptionProductUpload.aspx.designer.cs">
       <DependentUpon>SubscriptionProductUpload.aspx</DependentUpon>
     </Compile>
   </ItemGroup>

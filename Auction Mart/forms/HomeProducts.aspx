@@ -36,7 +36,6 @@
             <table class="auto-style3">
                 <tr>
                     <td class="auto-style1">
-                        <asp:Label ID="lblFree" runat="server" Text="Label"></asp:Label>
                         <img alt="" class="auto-style2" src="images/AUCTION%20MART.png" /></td>
                     <td>
             <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" OnMenuItemClick="Menu1_MenuItemClick">
