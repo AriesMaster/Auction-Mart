@@ -105,7 +105,7 @@
                     <td class="auto-style6"><strong>
                         <asp:Button ID="Button1" runat="server" CssClass="auto-style7" OnClick="Button1_Click" Text="Upload" Width="178px" />
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button2" runat="server" PostBackUrl="~/Subscription.aspx" Text="Back" Width="107px" />
+                        <asp:Button ID="Button2" runat="server" PostBackUrl="~/forms/Subscription.aspx" Text="Back" Width="107px" OnClick="Button2_Click" />
                         </strong></td>
                     <td class="auto-style10"></td>
                 </tr>

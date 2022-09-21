@@ -40,15 +40,15 @@
             <table class="auto-style3">
                 <tr>
                     <td class="auto-style1">
-                        <img alt="" class="auto-style2" src="images/AUCTION%20MART.png" /></td>
+                        <img alt="" class="auto-style2" src="../images/AUCTION%20MART.png" /></td>
                     <td>
             <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
                 <Items>
-                    <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/home.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="PRODUCTS" Value="PRODUCTS" NavigateUrl="~/HomeProducts.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="ABOUT US" Value="ABOUT US" NavigateUrl="~/aboutUs.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="CONTACT US" Value="CONTACT US" NavigateUrl="~/contact.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="HELP" Value="HELP" NavigateUrl="~/Help.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/forms/home.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="PRODUCTS" Value="PRODUCTS" NavigateUrl="~/forms/HomeProducts.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="ABOUT US" Value="ABOUT US" NavigateUrl="~/forms/aboutUs.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="CONTACT US" Value="CONTACT US" NavigateUrl="~/forms/contact.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="HELP" Value="HELP" NavigateUrl="~/forms/Help.aspx"></asp:MenuItem>
                 </Items>
                 <StaticHoverStyle BackColor="#666699" BorderStyle="Inset" />
                 <StaticMenuItemStyle BackColor="#0066CC" Font-Bold="True" ForeColor="White" HorizontalPadding="68px" VerticalPadding="22px" />
@@ -64,7 +64,7 @@
         </div>
         <div>
 
-            <img alt="" class="auto-style4" src="images/5-Auction-Tips-for-Beginners2.jpg" /></div>
+            <img alt="" class="auto-style4" src="../images/5-Auction-Tips-for-Beginners2.jpg" /></div>
         <div>
 
             <table style="width:100%;">

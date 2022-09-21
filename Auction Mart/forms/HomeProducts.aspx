@@ -13,6 +13,7 @@
         }
         .auto-style1 {
             width: 161px;
+            height: 147px;
         }
         .auto-style2 {
             width: 158px;
@@ -28,6 +29,9 @@
         .auto-style7 {
             width: 2px;
         }
+        .auto-style8 {
+            height: 147px;
+        }
     </style>
 </head>
 <body>
@@ -36,15 +40,15 @@
             <table class="auto-style3">
                 <tr>
                     <td class="auto-style1">
-                        <img alt="" class="auto-style2" src="images/AUCTION%20MART.png" /></td>
-                    <td>
+                        <img alt="" class="auto-style2" src="../images/AUCTION%20MART.png" /></td>
+                    <td class="auto-style8">
             <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" OnMenuItemClick="Menu1_MenuItemClick">
                 <Items>
-                    <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/home.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="PRODUCTS" Value="PRODUCTS" NavigateUrl="~/HomeProducts.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="ABOUT US" Value="ABOUT US" NavigateUrl="~/aboutUs.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="CONTACT US" Value="CONTACT US" NavigateUrl="~/contact.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="HELP" Value="HELP" NavigateUrl="~/Help.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/forms/home.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="PRODUCTS" Value="PRODUCTS" NavigateUrl="~/forms/HomeProducts.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="ABOUT US" Value="ABOUT US" NavigateUrl="~/forms/aboutUs.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="CONTACT US" Value="CONTACT US" NavigateUrl="~/forms/contact.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="HELP" Value="HELP" NavigateUrl="~/forms/Help.aspx"></asp:MenuItem>
                 </Items>
                 <StaticHoverStyle BackColor="#666699" BorderStyle="Inset" />
                 <StaticMenuItemStyle BackColor="#0066CC" Font-Bold="True" ForeColor="White" HorizontalPadding="68px" VerticalPadding="22px" />

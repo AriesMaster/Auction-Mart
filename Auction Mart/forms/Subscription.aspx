@@ -148,7 +148,7 @@
                     &nbsp;&nbsp;&nbsp;<strong><asp:Button ID="Button1" runat="server" CssClass="auto-style28" OnClick="Button1_Click" Text="Subcribe" Width="119px" />
                     <br />
                     <br />
-                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/login.aspx">login</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/forms/login.aspx">login</asp:HyperLink>
                     </strong></td>
                 <td class="auto-style24"></td>
             </tr>
