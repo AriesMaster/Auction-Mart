@@ -2,7 +2,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background-color: #666699">
 <head runat="server">
     <title></title>
     <style type="text/css">
@@ -13,24 +13,18 @@
         }
         .auto-style1 {
             width: 161px;
-            height: 147px;
+            height: 51px;
         }
         .auto-style2 {
             width: 158px;
             height: 66px;
             margin-left: 55px;
         }
-        .auto-style5 {
-            width: 87px;
-        }
-        .auto-style6 {
-            width: 1076px;
-        }
         .auto-style7 {
             width: 2px;
         }
         .auto-style8 {
-            height: 147px;
+            height: 51px;
         }
     </style>
 </head>
@@ -62,26 +56,44 @@
         </div>
         <div>
 
-            </div>
-        <div>
-
             <table style="width:100%;">
                 <tr>
-                    <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style6">&nbsp;</td>
+                    <td>Available products </td>
                     <td class="auto-style7">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style6" rowspan="2">
-                        &nbsp;</td>
-                    <td class="auto-style7">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td class="auto-style7" rowspan="5">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style7">&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
-            </table>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="auto-style7" rowspan="5">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                </table>
 
         </div>
     </form>

@@ -37,7 +37,7 @@
         <div>
             &nbsp;<table style="width: 100%; height: 568px;">
                 <tr>
-                    <td class="auto-style1" colspan="3">&nbsp;</td>
+                    <td class="auto-style1" colspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
@@ -55,6 +55,21 @@
                         <table class="auto-style17" style="background-color: #FFFFFF">
                             <tr>
                                 <td colspan="2" style="background-color: #FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SIGNUP&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="background-color: #FFFFFF">
+                                    <asp:DropDownList ID="userDDL" runat="server" Height="16px" OnSelectedIndexChanged="userDDL_SelectedIndexChanged" Width="106px">
+                                        <asp:ListItem>Admin</asp:ListItem>
+                                        <asp:ListItem>Buyer</asp:ListItem>
+                                        <asp:ListItem>Seller</asp:ListItem>
+                                    </asp:DropDownList>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
                             </tr>
                             <tr>
                                 <td style="background-color: #FFFFFF">FIRST NAME</td>
@@ -111,7 +126,14 @@
                                 <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:Button ID="Button1" runat="server" BackColor="#FF0066" Text="SIGNUP" Width="203px" PostBackUrl="~/forms/Subscription.aspx" />
+                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:Button ID="signupBtn" runat="server" BackColor="#FF0066" Text="SIGNUP" Width="203px" OnClick="signupBtn_Click" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="background-color: #FFFFFF"><asp:Label ID="Label1" runat="server" Text="Label" ForeColor="Red"></asp:Label>
                                 </td>
                             </tr>
                             <tr>

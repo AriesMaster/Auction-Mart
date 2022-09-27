@@ -15,7 +15,7 @@
         }
         .auto-style9 {
             width: 119%;
-            height: 90px;
+            height: 269px;
         }
         </style>
 </head>
@@ -31,7 +31,8 @@
                 </tr>
                 <tr>
                     <td class="auto-style1">&nbsp;</td>
-                    <td class="auto-style1">&nbsp;</td>
+                    <td class="auto-style1">
+                        &nbsp;</td>
                     <td class="auto-style1">&nbsp;</td>
                     <td rowspan="3">&nbsp;</td>
                     <td rowspan="3">&nbsp;</td>
@@ -42,6 +43,21 @@
                         <table class="auto-style9" style="background-color: #FFFFFF; clear: none; table-layout: auto;">
                             <tr>
                                 <td colspan="3" style="text-decoration: blink">&nbsp; LOGIN</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" style="text-decoration: blink">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" style="text-decoration: blink">
+                                    <asp:DropDownList ID="userDDL" runat="server" Height="16px" OnSelectedIndexChanged="userDDL_SelectedIndexChanged" Width="106px">
+                                        <asp:ListItem>Admin</asp:ListItem>
+                                        <asp:ListItem>Buyer</asp:ListItem>
+                                        <asp:ListItem>Seller</asp:ListItem>
+                                    </asp:DropDownList>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" style="text-decoration: blink">&nbsp;</td>
                             </tr>
                             <tr>
                                 <td style="text-decoration: blink">&nbsp; Email :</td>
@@ -78,8 +94,19 @@
                             </tr>
                             <tr>
                                 <td colspan="3" style="text-decoration: blink">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <asp:Button ID="Button1" runat="server" BackColor="#FF0066" PostBackUrl="~/forms/home.aspx" Text="LOGIN" Width="221px" />
+                                    <asp:Button ID="loginBtn" runat="server" BackColor="#FF0066" Text="LOGIN" Width="221px" OnClick="Button1_Click" />
                                     &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" style="text-decoration: blink">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" style="text-decoration: blink">
+                        <asp:Label ID="Label1" runat="server" Text="Label" ForeColor="Red"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" style="text-decoration: blink">&nbsp;</td>
                             </tr>
                             <tr>
                                 <td colspan="3" style="text-decoration: blink">&nbsp;</td>
