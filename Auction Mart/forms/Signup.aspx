@@ -52,15 +52,15 @@
                     <td class="auto-style15">
                         &nbsp;</td>
                     <td class="auto-style15">
-                        <table class="auto-style17" style="background-color: #FFFFFF">
+                        <table class="auto-style17" style="background-color: #C0C0C0">
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SIGNUP&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SIGNUP&nbsp;</td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">
+                                <td colspan="2" style="background-color: #C0C0C0">
                                     <asp:DropDownList ID="userDDL" runat="server" Height="16px" OnSelectedIndexChanged="userDDL_SelectedIndexChanged" Width="106px">
                                         <asp:ListItem>Admin</asp:ListItem>
                                         <asp:ListItem>Buyer</asp:ListItem>
@@ -69,89 +69,89 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #FFFFFF">FIRST NAME</td>
+                                <td style="background-color: #C0C0C0">FIRST NAME</td>
                                 <td>
                                     <asp:TextBox ID="firstNameTxt" runat="server" Height="24px" Width="226px"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #FFFFFF">LAST NAME</td>
+                                <td style="background-color: #C0C0C0">LAST NAME</td>
                                 <td>
                                     <asp:TextBox ID="lastNameTxt" runat="server" Height="24px" Width="226px"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #FFFFFF">EMAIL ADDRESS</td>
+                                <td style="background-color: #C0C0C0">EMAIL ADDRESS</td>
                                 <td>
                                     <asp:TextBox ID="emailAddressTxt" runat="server" Height="24px" Width="226px"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #FFFFFF">CELL PHONE</td>
+                                <td style="background-color: #C0C0C0">CELL PHONE</td>
                                 <td>
                                     <asp:TextBox ID="cellphoneTxt" runat="server" Height="24px" Width="226px"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #FFFFFF">PASSWORD</td>
+                                <td style="background-color: #C0C0C0">PASSWORD</td>
                                 <td>
                                     <asp:TextBox ID="passwordTxt" runat="server" Height="24px" Width="226px"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #FFFFFF">CORNFIRM PASSWORD</td>
+                                <td style="background-color: #C0C0C0">CORNFIRM PASSWORD</td>
                                 <td>
                                     <asp:TextBox ID="confPasswordTxt" runat="server" Height="24px" Width="226px"></asp:TextBox>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:Button ID="signupBtn" runat="server" BackColor="#FF0066" Text="SIGNUP" Width="203px" OnClick="signupBtn_Click" />
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<asp:Button ID="signupBtn" runat="server" BackColor="#FF0066" Text="SIGNUP" Width="203px" OnClick="signupBtn_Click" />
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF"><asp:Label ID="Label1" runat="server" Text="Label" ForeColor="Red"></asp:Label>
+                                <td colspan="2" style="background-color: #C0C0C0"><asp:Label ID="Label1" runat="server" Text="Label" ForeColor="Red"></asp:Label>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">Already have an account please login below</td>
+                                <td colspan="2" style="background-color: #C0C0C0">Already have an account please login below</td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">
+                                <td colspan="2" style="background-color: #C0C0C0">
                                     <asp:DynamicHyperLink ID="DynamicHyperLink2" runat="server" NavigateUrl="~/forms/login.aspx">LOGIN</asp:DynamicHyperLink>
                                 </td>
                             </tr>
                             <tr>
-                                <td colspan="2" style="background-color: #FFFFFF">&nbsp;</td>
+                                <td colspan="2" style="background-color: #C0C0C0">&nbsp;</td>
                             </tr>
                         </table>
                     </td>

@@ -40,7 +40,8 @@
                 <tr>
                     <td class="auto-style1">&nbsp;</td>
                     <td class="auto-style1">
-                        <table class="auto-style9" style="background-color: #FFFFFF; clear: none; table-layout: auto;">
+                        <table class="auto-style9" 
+                            style="background-color: #C0C0C0; clear: none; table-layout: auto;">
                             <tr>
                                 <td colspan="3" style="text-decoration: blink">&nbsp; LOGIN</td>
                             </tr>
