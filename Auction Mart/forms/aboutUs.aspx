@@ -23,7 +23,7 @@
             width: 87px;
         }
         .auto-style6 {
-            width: 1076px;
+          width: 1041px;
         }
         .auto-style7 {
             width: 2px;
@@ -64,13 +64,31 @@
             <table style="width:100%;">
                 <tr>
                     <td class="auto-style5">&nbsp;</td>
-                    <td class="auto-style6">&nbsp;</td>
+                    <td class="auto-style6">
+                        <asp:Image ID="Image1" runat="server" Height="293px" 
+                            ImageUrl="~/forms/WhatsApp Image 2022-09-27 at 12.36.32.jpeg" Width="1261px" />
+                    </td>
                     <td class="auto-style7">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style5">&nbsp;</td>
                     <td class="auto-style6" rowspan="2">
-                        &nbsp;</td>
+                        <asp:Panel ID="Panel1" runat="server" Width="996px">
+                        </asp:Panel>
+                        <asp:Panel ID="Panel2" runat="server" BackColor="#999966" Height="195px" 
+                            Width="1260px">
+                            <br />
+                            Auction Mart is a well-known South African company that was established since 
+                            1998. Our aim is to make sure that auction takes place online without physical 
+                            contact. Auctioneers and clients always get a good deal when buying or selling 
+                            assets. The auction is the most widely used in South Africa for large-scale 
+                            sales events. Auctioneers oversee selling items at the auction, announcing each 
+                            bid and the winner, and overseeing the entire bidding process. In an auction, 
+                            buyers compete against one another to win the asset that the auctioneers are 
+                            selling. Auctions and buy-and-sell events are held frequently to allow 
+                            auctioneers to sell and buyers to buy. Daily plan is R50, Monthly plan is R250 
+                            and Annual plan R500.</asp:Panel>
+                    </td>
                     <td class="auto-style7">&nbsp;</td>
                 </tr>
                 <tr>
